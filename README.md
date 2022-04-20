@@ -23,3 +23,7 @@ Example:
     `if row[8] == "w" or "o" or "n":`
     
 You could also remove that if statement and the indent.
+
+
+##Demo
+Included is a demo CSV file. To use this file with the program, delete the "DEMO" at the beginning of the file name.
