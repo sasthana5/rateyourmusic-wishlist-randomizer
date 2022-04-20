@@ -15,7 +15,7 @@ for row in csvreader:
     
         album = str(row[5])
         combined = fullName + " - " + album
-        print(combined)
+#        print(combined)
         list.append(combined)
         f.close()
         f = open("output.txt", "a")
@@ -24,5 +24,5 @@ for row in csvreader:
     else:
         pass
 
-randSelect = random.randint(0, (len(list)))
-print("You should listen to: " + list[randSelect])
+randSelect = random.randint(1, (len(list)))
+print("You should listen to: " + list[randSelect - 1])
