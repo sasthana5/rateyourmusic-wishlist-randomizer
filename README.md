@@ -21,4 +21,5 @@ If you want all 3 combined you can put *or* between them
 
 Example:
     `if row[8] == "w" or "o" or "n":`
+    
 You could also remove that if statement and the indent.
