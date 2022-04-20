@@ -6,9 +6,12 @@
 4. Save the generated file to the same directory as *main.py*, (make sure the exported file's name is *user_albums_export.csv*, you may have to add the *.csv* to the end of the file)
 5. Run *main.py*. A random album will be picked and printed in the command line. All the albums + artists will be outputted together to *output.txt*. 
 This **ONLY** will output and randomly select from albums on your wishlist. To see others, replace the "w" in line 10 of *main.py* with one of the following letters:
-w = wishlist
-o = owned
-n = rated
+>w = wishlist
+>
+>o = owned
+>
+>n = rated
+
 (these may not be all of the letters RYM uses, and I'm mostly guessing as to which corresponds to which. W and O are accurate, N is most likely accurate)
 
 Example:
