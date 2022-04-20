@@ -25,5 +25,5 @@ Example:
 You could also remove that if statement and the indent.
 
 
-##Demo
+## Demo
 Included is a demo CSV file. To use this file with the program, delete the "DEMO" at the beginning of the file name.
